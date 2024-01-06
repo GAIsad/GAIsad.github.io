@@ -7,5 +7,6 @@ public class DateType4 {
         byte char short->int---->long----->float------>double
          */
 
+
     }
 }
