@@ -9,6 +9,7 @@ public class Naming {
         int _3=2;
         //不能以数字命名
         //int 2a=2;
+        //int a b=2;
         //已有的变量
         //int public=2;
 
