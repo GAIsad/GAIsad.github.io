@@ -21,8 +21,8 @@ public class Netogite {
 
     }
 
-    public static void mo(String[] args) {
-        //一类别无法引用另一类的变量
+    public static void m(String[] args) {
+        //一类别无法引用另一类的变量(可以用主类与派生类来区别）
         //System.out.println("age"+age);
 
 

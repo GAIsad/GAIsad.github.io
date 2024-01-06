@@ -1,6 +1,7 @@
 package day3;
 
 public class Naming {
+    //next netogite
     public static void main(String[] args) {
         int age=2;
         int code=2;
