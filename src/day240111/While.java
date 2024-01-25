@@ -1,4 +1,4 @@
-package day04;
+package day240111;
 
 public class While {
     public static void main(String[] args) {
