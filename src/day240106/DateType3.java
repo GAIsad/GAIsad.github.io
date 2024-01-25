@@ -1,4 +1,4 @@
-package day3;
+package day240106;
 
 public class DateType3 {
     public static void main(String[] args) {

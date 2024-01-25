@@ -1,4 +1,4 @@
-package day3;
+package day240106;
 
 public class Netogite {
     public static void main(String[] args) {
