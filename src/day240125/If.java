@@ -2,6 +2,7 @@ package day240125;
 
 public class If {
     public static void main(String[] args) {
+
         int x=8;
         int y=9;
         int i= x >= y ? x : y;
