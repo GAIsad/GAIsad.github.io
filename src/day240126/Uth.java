@@ -8,6 +8,7 @@ public class Uth {
         Scanner scanner=new Scanner(System.in);
         int m=scanner.nextInt();
         int a,b,c;
+
         a=m/100;
         System.out.println("百位数是："+a);
         b=m%100/10;
