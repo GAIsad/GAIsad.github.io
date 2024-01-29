@@ -19,7 +19,7 @@ stack和heap
 
 ## 五，深入了解二维数组的空间分配，对应的类型
 /*int[][] arr1=new int[4][];
-System.out.println(arr1[1]);（所有类型都一样是null）
+System.out.println(arr1[1]);（数组是引用类型都是null）
 输出结果null
 */
 /*int[][] arr1=new int[4][3];
