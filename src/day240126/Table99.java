@@ -34,13 +34,13 @@ public class Table99 {
         }*/
 
         // step y: 再还原细节
-        for(int i=1;i<=9;i++){
+        for (int i = 1; i <= 9; i++) {
             System.out.println();
-            for(int j=1;j<=i;j++){
-                a=i*j;
-                System.out.print(i+"*"+j+"="+a+" ");
-
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i+"*"+j+"="+(i*j)+" ");
             }
         }
+
     }
 }
+
