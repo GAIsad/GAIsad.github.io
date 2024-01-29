@@ -8,10 +8,21 @@
 stack和heap
 ![img.png](stack.png)
 ## 四 二维多维数组(引用数据类型)
-静态：int arr【】【】=new int【】【】{{1， 2， 3}，{2， 3， 4}}
+静态：int arr[][]=new int[][]{1， 2， 3}，{2， 3， 4}}
 
-动态初始化：1.String arr=new String【3】【3】
+动态初始化：1.String arr=new String[3][3]
 
-2.double【】【】arr4=new double【2】【】
+2.double[][]arr4=new double[2][]
 
-二维数组的长度取决于第一维：例如arr【3】【4】长度为3
+二维数组的长度取决于第一维：例如arr[3][4]长度为3
+
+
+## 五，深入了解二维数组的空间分配，对应的类型
+/*int[][] arr1=new int[4][];
+System.out.println(arr1[1]);（所有类型都一样是null）
+输出结果null
+*/
+/*int[][] arr1=new int[4][3];
+System.out.println(arr1[1][2]);
+输出结果0，换成string则输出null，换成浮点则输出0.0，布尔型输出false即输出对应的基本单位
+*/

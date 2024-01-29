@@ -14,9 +14,17 @@ public class TwoDimensionalArrayBasic {
          /*int[][] arr1=new int[3][2];
         System.out.println(arr1[0]);
           输出地址*/
-        int[][] arr1=new int[4][];
-        arr1[1]=new int[5];
-        arr1[1][1]=1;
+        /*int[][] arr1=new int[4][];
+        System.out.println(arr1[1]);（所有类型都一样是null）
+        输出结果null
+         */
+         /*int[][] arr1=new int[4][3];
+        System.out.println(arr1[1][2]);
+        输出结果0，换成string则输出null，换成浮点则输出0.0，布尔型输出false即输出对应的基本单位
+         */
+
+        // arr1[1]=new int[5];
+        //arr1[1][1]=1;
         //声明合理
         //arr1[2][2]=1;没有初始化，没有对arr1[2]进行定义
         //System.out.println(arr1[2][2]);
