@@ -5,7 +5,7 @@ public class Table99 {
         int a;
         // step 1: 找到核心，要被重复执行的那些代码
         //System.out.println("1 * 1 = 1");
-
+        //
 
         // step 2: 核心的代码需要被重复执行 9 次
         /*for (int i = 1; i <= 9; i++) {
