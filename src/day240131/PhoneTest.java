@@ -9,7 +9,7 @@ public class PhoneTest {
         phone.phonecolor="blue";
         phone.phonesort="IQQO";
         System.out.println(phone.size+" "+phone.phonesort+" "+phone.phonecolor);
-        phone.function1();
-        phone.function2();
+        phone.function1("dad");
+        phone.function2("23分钟");
     }
 }
