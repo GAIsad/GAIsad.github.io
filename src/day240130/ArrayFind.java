@@ -7,6 +7,8 @@ public class ArrayFind {
         int[] arr = new int[]{10, 50, 30, 70, 80, 60, 20, 90, 40};
         int traget = 20;
         int m=0;
+
+
         //操作
         /*
         重复内容
