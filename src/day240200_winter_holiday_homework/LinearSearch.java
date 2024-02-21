@@ -14,17 +14,10 @@ public class LinearSearch {
         // 数据
         int[] arr = new int[]{10, 50, 30, 70, 80, 60, 20, 90, 40};
         int target = 20;
-        int m0 = arr[0];
-        if (target == m0) {
-            System.out.println("在index=" + 0 + "的位置上找到了" + target);
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (target == arr[i]) {
+                System.out.println("在index=" + i + "的位置上找到了" + target);
+            }
         }
-
-        int m1 = arr[1];
-        if (target == m1) {
-            System.out.println("在index=" + 1 + "的位置上找到了" + target);
-        }
-
-        //再次重复以上操作过于麻烦，思考优化
-        //DRY原则
     }
 }
