@@ -20,7 +20,7 @@ public class BinarySearch {
         int high = arr.length - 1;
         int middle = (low + high) / 2;
         int currentValue = arr[middle];
-       //三情况分析
+        //三情况分析
         if (target == currentValue) {
             // 等于
             System.out.println("在index=" + middle + "的位置上找到了" + target);
@@ -32,12 +32,13 @@ public class BinarySearch {
             high = middle - 1;
         }
     }
-        //===== = === ===
-        // 1. 定义两个变量 low（数组开始） 和 high（数组的终点），缩短数组长度 ，减少索引范围
-        // 2. 初始：让 low = 0; high = arr.length -1 数组的长度
-        // 3. 二分：定义middle = (low + high) / 2;缩短数组
-        // 4. 判断： middle对应数组的值和target对比，有三种情况（等于、大于、小于）
-        // 5. 根据三种不同情况改变 low 和 high 的值，寻找方法再次二分数组
-        // 6. 什么时候停止二分？当 low <= high 的时候，循环结束
-    }
+    //想到重复来改变middle的值，不断折半
+    //===== = === ===
+    // 1. 定义两个变量 low（数组开始） 和 high（数组的终点），缩短数组长度 ，减少索引范围
+    // 2. 初始：让 low = 0; high = arr.length -1 数组的长度
+    // 3. 二分：定义middle = (low + high) / 2;缩短数组
+    // 4. 判断： middle对应数组的值和target对比，有三种情况（等于、大于、小于）
+    // 5. 根据三种不同情况改变 low 和 high 的值，寻找方法再次二分数组
+    // 6. 什么时候停止二分？当 low <= high 的时候，循环结束
 }
+
