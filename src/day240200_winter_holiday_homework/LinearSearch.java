@@ -16,7 +16,7 @@ public class LinearSearch {
 
         int target = 21;
         boolean notFound = true;
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i <= arr.length - 1; i++) {
             if (target == arr[i]) {
                 System.out.println("在index=" + i + "的位置上找到了" + target);
                 notFound = false;
