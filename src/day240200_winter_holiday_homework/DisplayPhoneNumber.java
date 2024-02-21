@@ -18,5 +18,6 @@ public class DisplayPhoneNumber {
         // 至少我们知道，国内电话号码（手机号码）正常是 11 位
         // array1 和 array2 跟 11 位有没说明关联？
         // array2 的长度正好是 11 位
+        // 正常的手机号码是 1 开头的，直接输入 array2 好像不对劲
     }
 }
