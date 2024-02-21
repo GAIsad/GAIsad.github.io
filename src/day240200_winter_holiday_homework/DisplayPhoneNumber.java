@@ -26,7 +26,7 @@ public class DisplayPhoneNumber {
         // 如何获取代码的长度？数组.length
         // 再结合循环的知识，把 array2 循环出来，同时假设每个数值都是 1，先利用 array2 输出 11 个 1
         for (int i = 0; i < array2.length; i++) {
-            System.out.print("1");
+            System.out.print(array1[array2[i]]);
         }
     }
 }
