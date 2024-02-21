@@ -19,5 +19,7 @@ public class DisplayPhoneNumber {
         // array1 和 array2 跟 11 位有没说明关联？
         // array2 的长度正好是 11 位
         // 正常的手机号码是 1 开头的，直接输入 array2 好像不对劲
+        // 那题干中正好还有一个 array1 没用上，结合其他看看
+        // 结合数组的知识，好像一个是索引、一个是数值
     }
 }
