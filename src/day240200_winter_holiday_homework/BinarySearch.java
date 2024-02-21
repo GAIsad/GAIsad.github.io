@@ -25,6 +25,7 @@ public class BinarySearch {
             if (target == currentValue) {
                 // 等于
                 System.out.println("在index=" + middle + "的位置上找到了" + target);
+                break;
             } else if (target > currentValue) {
                 // 情况2：大于
                 low = middle + 1;
