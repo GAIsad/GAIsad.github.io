@@ -18,6 +18,7 @@ public class BinarySearch {
         int target = 2;
         int low = 0;
         int high = arr.length - 1;
+        boolean found = false;
         while (low <= high) {
             int middle = (low + high) / 2;
             int currentValue = arr[middle];
@@ -25,6 +26,7 @@ public class BinarySearch {
             if (target == currentValue) {
                 // 等于
                 System.out.println("在index=" + middle + "的位置上找到了" + target);
+                found = true;
                 break;
             } else if (target > currentValue) {
                 // 情况2：大于
@@ -33,6 +35,9 @@ public class BinarySearch {
                 // 情况3：小于
                 high = middle - 1;
             }
+        }
+        if (!found) {
+            System.out.println("没有找到" + target);
         }
         //想到重复来改变middle的值，不断折半
         //===== = === ===
