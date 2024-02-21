@@ -16,5 +16,11 @@ public class BinarySearch {
         // 数据（有序）
         int[] arr = new int[]{3, 4, 5, 6, 7, 8, 9};
         int target = 8;
+        // 1. 定义两个变量 low（数组开始） 和 high（数组的终点），缩短数组长度 ，减少索引范围
+        // 2. 初始：让 low = 0; high = arr.length -1 数组的长度
+        // 3. 二分：定义middle = (low + high) / 2;缩短数组
+        // 4. 判断： middle对应数组的值和target对比，有三种情况（等于、大于、小于）
+        // 5. 根据三种不同情况改变 low 和 high 的值，寻找方法再次二分数组
+        // 6. 什么时候停止二分？当 low <= high 的时候，循环结束
     }
 }
