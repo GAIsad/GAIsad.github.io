@@ -1,5 +1,9 @@
 ## 一：了解学习工具
+1
+
 https://pythontutor.com/render.html
+
+2
 
 https://visualgo.net/zh/sorting
 
