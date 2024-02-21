@@ -23,6 +23,8 @@ public class LinearSearch {
         if (target == m1) {
             System.out.println("在index=" + 1 + "的位置上找到了" + target);
         }
-        //
+
+        //再次重复以上操作过于麻烦，思考优化
+        //DRY原则
     }
 }
