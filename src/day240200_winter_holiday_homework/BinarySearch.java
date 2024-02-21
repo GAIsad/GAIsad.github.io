@@ -15,7 +15,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         // 数据（有序）
         int[] arr = new int[]{3, 4, 5, 6, 7, 8, 9};
-        int target = 8;
+        int target = 2;
         int low = 0;
         int high = arr.length - 1;
         while (true) {
