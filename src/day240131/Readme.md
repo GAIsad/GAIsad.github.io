@@ -23,3 +23,4 @@ objectlocation：
 ![img_1.png](img/img2.png)
 成员变量：类里面方法之外
 局部变量：方法之内
+用数组储存用户信息：用get和set方法借助this指针
