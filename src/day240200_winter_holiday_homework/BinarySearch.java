@@ -19,6 +19,19 @@ public class BinarySearch {
         int low = 0;
         int high = arr.length - 1;
         int middle = (low + high) / 2;
+        int currentValue = arr[middle];
+       //三情况分析
+        if (target == currentValue) {
+            // 等于
+            System.out.println("在index=" + middle + "的位置上找到了" + target);
+        } else if (target > currentValue) {
+            // 情况2：大于
+            low = middle + 1;
+        } else {
+            // 情况3：小于
+            high = middle - 1;
+        }
+    }
         //===== = === ===
         // 1. 定义两个变量 low（数组开始） 和 high（数组的终点），缩短数组长度 ，减少索引范围
         // 2. 初始：让 low = 0; high = arr.length -1 数组的长度
