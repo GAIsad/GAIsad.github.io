@@ -18,7 +18,7 @@ public class BinarySearch {
         int target = 2;
         int low = 0;
         int high = arr.length - 1;
-        while (true) {
+        while (low <= high) {
             int middle = (low + high) / 2;
             int currentValue = arr[middle];
             //三情况分析
