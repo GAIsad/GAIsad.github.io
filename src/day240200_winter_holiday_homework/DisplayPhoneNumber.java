@@ -21,5 +21,12 @@ public class DisplayPhoneNumber {
         // 正常的手机号码是 1 开头的，直接输入 array2 好像不对劲
         // 那题干中正好还有一个 array1 没用上，结合其他看看
         // 结合数组的知识，好像一个是索引、一个是数值
+        // === === ===
+        // 写代码
+        // 如何获取代码的长度？数组.length
+        // 再结合循环的知识，把 array2 循环出来，同时假设每个数值都是 1，先利用 array2 输出 11 个 1
+        for (int i = 0; i < array2.length; i++) {
+            System.out.print("1");
+        }
     }
 }
