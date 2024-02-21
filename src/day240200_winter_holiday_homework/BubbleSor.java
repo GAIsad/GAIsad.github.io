@@ -22,12 +22,24 @@ package day240200_winter_holiday_homework;
 public class BubbleSor {
     public static void main(String[] args) {
         int[] arr = new int[]{28, 5, 11, 9, 2};
-        //1.交换temp = arr[j + 1];
+        int temp = 0;
+        //1.
+        // 交换 定义temp
+        // temp = arr[j + 1];
         //  arr[j + 1] = arr[j];
         //  arr[j] = temp;
         //2.循环
         //第一轮：index 0~1比较，大者在后，之后1~2，2~3，3~4 依次比较（这是一个循环）循环结果是最大的数在最后一个
         //第二轮：index 0~1，1~2，2~3 ，依次比较，（循环）第二大的数在倒二个，3~4不用再次比较
         //多轮下去，不断将大的数放在后面，这时我们应该使用循环的嵌套，双重循环来进行，每轮重复内容
+        //第一轮
+        for (int j = 0; j < 5 - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                //交换过程
+                temp = arr[j + 1];
+                arr[j + 1] = arr[j];
+                arr[j] = temp;
+            }
+        }
     }
 }
