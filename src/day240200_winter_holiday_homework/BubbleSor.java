@@ -23,6 +23,11 @@ public class BubbleSor {
     public static void main(String[] args) {
         int[] arr = new int[]{28, 5, 11, 9, 2};
         int temp = 0;
+        System.out.print("排序之前：");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
         //1.
         // 交换 定义temp
         // temp = arr[j + 1];
