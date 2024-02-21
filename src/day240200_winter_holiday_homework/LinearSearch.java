@@ -17,6 +17,7 @@ public class LinearSearch {
         for (int i = 0; i < arr.length - 1; i++) {
             if (target == arr[i]) {
                 System.out.println("在index=" + i + "的位置上找到了" + target);
+                break;
             }
             System.out.println("--- ---");
         }
