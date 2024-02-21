@@ -19,7 +19,7 @@ public class BinarySearch {
         int low = 0;
         int high = arr.length - 1;
         int middle = (low + high) / 2;
-        //===== = === === 
+        //===== = === ===
         // 1. 定义两个变量 low（数组开始） 和 high（数组的终点），缩短数组长度 ，减少索引范围
         // 2. 初始：让 low = 0; high = arr.length -1 数组的长度
         // 3. 二分：定义middle = (low + high) / 2;缩短数组
