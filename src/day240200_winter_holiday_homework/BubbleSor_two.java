@@ -26,6 +26,14 @@ public class BubbleSor_two {
 
             }
         }
+        for (int i = 0; i < arr.length - 2; i++) {
+            if (arr[i] > arr[i + 1]) {
+                int temp = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = temp;
+
+            }
+        }
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
