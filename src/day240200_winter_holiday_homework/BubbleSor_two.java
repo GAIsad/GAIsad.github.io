@@ -1,4 +1,5 @@
 package day240200_winter_holiday_homework;
+
 /*
 排序算法 将一串数组（一个列表）中的元素（整数，数字，字符串等）按某种顺序（增大，减小，字典顺序等）重新排列。 sorting
 冒泡排序 排序算法之一 它比较两个相邻的元素，并决定是否交换它们，直到它们按预期顺序排列 像水中气泡上升到表面的运动过程一样
@@ -17,24 +18,22 @@ public class BubbleSor_two {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        if (arr[0] > arr[1]) {
-            int temp = arr[0];
-            arr[0] = arr[1];
-            arr[1] = temp;
-        }
-        if (arr[1] > arr[2]) {
-            int temp = arr[1];
-            arr[1] = arr[2];
-            arr[2] = temp;
-            for (int i = 0; i < arr.length; i++) {
-                System.out.print(arr[i] + " ");
-            }
-            System.out.println();
-            // 交换 定义temp(0-1,1-2,2-3)交换
-            // temp = arr[j + 1];
-            //  arr[j + 1] = arr[j];
-            //  arr[j] = temp;
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                int temp = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = temp;
 
+            }
         }
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+        // 交换 定义temp(0-1,1-2,2-3)交换
+        // temp = arr[j + 1];
+        //  arr[j + 1] = arr[j];
+        //  arr[j] = temp;
+
     }
 }
