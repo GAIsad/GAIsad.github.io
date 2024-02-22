@@ -12,5 +12,12 @@ Given an array of N elements, Bubble Sort will:
 public class BubbleSor_two {
     public static void main(String[] args) {
         int[] arr = new int[]{28, 2,5,9,11};
+
+
+        // 交换 定义temp(0-1,1-2,2-3)交换
+        // temp = arr[j + 1];
+        //  arr[j + 1] = arr[j];
+        //  arr[j] = temp;
+
     }
 }
