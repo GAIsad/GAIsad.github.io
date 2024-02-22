@@ -11,7 +11,7 @@ Given an array of N elements, Bubble Sort will:
  */
 public class BubbleSor_two {
     public static void main(String[] args) {
-        int[] arr = new int[]{28, 2,5,9,11};
+        int[] arr = new int[]{28, 2, 5, 9, 11};
         System.out.print("排序之前：");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
@@ -22,14 +22,19 @@ public class BubbleSor_two {
             arr[0] = arr[1];
             arr[1] = temp;
         }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-        // 交换 定义temp(0-1,1-2,2-3)交换
-        // temp = arr[j + 1];
-        //  arr[j + 1] = arr[j];
-        //  arr[j] = temp;
+        if (arr[1] > arr[2]) {
+            int temp = arr[1];
+            arr[1] = arr[2];
+            arr[2] = temp;
+            for (int i = 0; i < arr.length; i++) {
+                System.out.print(arr[i] + " ");
+            }
+            System.out.println();
+            // 交换 定义temp(0-1,1-2,2-3)交换
+            // temp = arr[j + 1];
+            //  arr[j + 1] = arr[j];
+            //  arr[j] = temp;
 
+        }
     }
 }
