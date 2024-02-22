@@ -21,7 +21,7 @@ package day240200_winter_holiday_homework;
  */
 public class BubbleSor {
     public static void main(String[] args) {
-        int[] arr = new int[]{28, 5, 11, 9, 2};
+        int[] arr = new int[]{28, 2,5,9,11};
         int temp = 0;
         System.out.print("排序之前：");
         for (int i = 0; i < arr.length; i++) {
@@ -56,6 +56,7 @@ public class BubbleSor {
                     arr[j] = temp;}
          */
         for (int i = 1; i < arr.length; i++) {
+            System.out.println("=== ==== ==");
             boolean swapped = false;
             for (int j = 0; j < arr.length-i; j++) {
                 if (arr[j] > arr[j + 1]) {
