@@ -14,6 +14,7 @@ public class BubbleSor_two {
     public static void main(String[] args) {
         int[] arr = new int[]{28, 2, 5, 9, 11};
         System.out.print("排序之前：");
+        boolean swapped = false;
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
@@ -24,10 +25,14 @@ public class BubbleSor_two {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
-
+                    swapped = true;
                 }
             }
+            if (!swapped) {
+                break;
+            }
         }
+
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
