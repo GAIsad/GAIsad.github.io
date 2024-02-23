@@ -3,8 +3,8 @@ package day240222;
 public class Circle {
     //state
    double radius;
-    public Circle(double r){
-        radius=r;
+    public Circle(double radius){
+        this.radius=radius;
     }
     //behavior
 
