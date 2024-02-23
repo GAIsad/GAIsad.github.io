@@ -3,6 +3,7 @@ package day240222;
 public class DogTest {
     public static void main(String[] args) {
         Dog dog=new Dog();
+        //dog.ID=1;
         dog.setID(1);
         dog.name="小白";
         dog.color="white";
