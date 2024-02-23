@@ -4,6 +4,7 @@ public class Circle {
     //state
    double radius;
     public Circle(double radius){
+        // IDEA 编辑器自动生成的版本
         this.radius=radius;
     }
     //behavior
