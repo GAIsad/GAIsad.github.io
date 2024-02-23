@@ -4,8 +4,9 @@ public class Circle {
     //state
    double radius;
     //behavior
-    public Circle(){
-        System.out.println("输出");
-    }
+    //无参的构造方法
 
+    public double area(){
+        return 3.14*radius*radius;
+    }
 }
