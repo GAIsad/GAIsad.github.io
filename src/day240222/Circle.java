@@ -2,10 +2,17 @@ package day240222;
 
 public class Circle {
     //state
-    Double side= 3.14;
-    Double R;
+    Double pi= 3.14;
+    private double radius;
     //behavior
-    void function1(){
-        System.out.println("圆的面积是:"+(R*side*R));
+    public void setradius(double setradius){
+        radius=setradius;
+        if(radius<0){
+            System.out.println("错误的输入");
+        }
+
+    }
+    public String getradius(){
+        return "圆的面积是"+(pi*radius*radius);
     }
 }

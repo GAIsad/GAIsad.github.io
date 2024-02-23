@@ -6,9 +6,9 @@ public class CirCleTest {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("请输出圆的半径");
-        double r=scanner.nextDouble();
+        double radius=scanner.nextDouble();
         Circle circle = new Circle();
-        circle.R =r;
-        circle.function1();
+        circle.setradius(radius);
+        System.out.println(circle.getradius());
     }
 }
