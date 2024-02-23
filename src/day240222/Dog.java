@@ -12,8 +12,8 @@ public class Dog {
             System.out.println("输入错误");
         }
     }
-    public int getID(){
-        return ID;
+    public String getID(){
+        return "ID"+ID;
     }
 
     void show(String behavior){
