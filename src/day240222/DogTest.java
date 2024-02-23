@@ -8,8 +8,9 @@ public class DogTest {
         dog.color="white";
 
         dog.show("吃饭睡觉");
+        System.out.println(dog.getID());
         Dog dog1=new Dog();
-
+        dog1.setID(2);
         dog1.name="小黑";
         dog1.color="black";
 
