@@ -31,7 +31,7 @@ public class StudentwithdogsTest2 {
         studentwithdogs2.name = "笋子";
         studentwithdogs2.dogs = "2";
         studentwithdogs2.show();
-
+        //DRY
         dog2.show();
         dog3.show();
     }
