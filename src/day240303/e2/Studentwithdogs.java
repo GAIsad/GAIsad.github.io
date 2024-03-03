@@ -5,10 +5,15 @@ public class Studentwithdogs {
     String name;
     String age;
     Dog[] dogs;
-    public void show(){
-        System.out.println("学生(学号"+id+")的信息：学号="+id+" "+"姓名="+name+" "+"年龄="+age+" "+"\n"+"有"+dogs.length+"只狗狗");
+
+    public void show() {
+        System.out.println("学生(学号" + id + ")的信息：学号=" + id + " " + "姓名=" + name + " " + "年龄=" + age + " " + "\n" + "有" + dogs.length + "只狗狗");
         //一个方法只做一件事
-        for(Dog dog:dogs){
+    }
+
+    public void Dogshow()
+    {
+        for (Dog dog : dogs) {
             dog.show();
         }
     }

@@ -24,6 +24,7 @@ public class StudentwithdogsTest2 {
         studentwithdogs1.age = "18";
         studentwithdogs1.dogs =new Dog[]{dog1};
         studentwithdogs1.show();
+        studentwithdogs1.Dogshow();
 
         Studentwithdogs studentwithdogs2 = new Studentwithdogs();
         studentwithdogs2.id = "202321396114";
@@ -31,6 +32,7 @@ public class StudentwithdogsTest2 {
         studentwithdogs2.name = "笋子";
         studentwithdogs2.dogs = new Dog[]{dog2,dog3};
         studentwithdogs2.show();
+        studentwithdogs2.Dogshow();
         //DRY
 
     }
