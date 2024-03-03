@@ -12,7 +12,7 @@ public class StudentTest {
         student2.id="1002";
         student2.name="小红";
         student2.age="19";
-        System.out.println("学生（学号**）的信息：学号=**、姓名=**、年龄=**");
+        System.out.println("学生（学号"+ student2.id+"）的信息：学号="+student2.id+"、姓名="+student2.name+"、年龄="+student2.age);
 
     }
 
