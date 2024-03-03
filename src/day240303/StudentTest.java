@@ -7,6 +7,7 @@ public class StudentTest {
         student1.id="1001";
         student1.name="李明";
         student1.age="18";
+        System.out.println("学生（学号**）的信息：学号=**、姓名=**、年龄=**");
         Student student2=new Student();
         student2.id="1002";
         student2.name="小红";
