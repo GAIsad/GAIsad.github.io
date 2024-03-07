@@ -19,6 +19,8 @@ public class t2 {
         boolean[] arr3=new boolean[]{false,true,true};
         System.out.println(arr3);
         //输出地址
+        String[] arr4=new String[]{"aad","aaad"};
+        System.out.println(arr4);
 
     }
 }
