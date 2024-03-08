@@ -4,8 +4,12 @@ public class Student {
     int number;
     int state;
     int score;
-public void show(){
-    System.out.println(number+" "+state+" "+score);
-}
 
-}
+    public void show() {
+        System.out.println(number + " " + state + " " + score);
+    }
+
+
+
+    }
+
