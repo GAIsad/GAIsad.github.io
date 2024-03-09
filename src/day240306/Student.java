@@ -12,12 +12,11 @@ public class Student {
         this.id = id;
     }
     public Student(int id,String name){
-        this.id=id;
+        this(id);
         this.name=name;
     }
     public Student(int id, String name, int age) {
-        this.id=id;
-        this.name=name;
+        this(id,name);
         this.age=age;
     }
 }
