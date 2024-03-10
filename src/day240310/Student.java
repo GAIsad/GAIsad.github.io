@@ -7,5 +7,6 @@ public class Student {
     public static Student singleton(){
         Student s=new Student();
         return s;
+
     }
 }
