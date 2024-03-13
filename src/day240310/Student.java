@@ -6,9 +6,9 @@ public class Student {
 
     }
     public static Student getInstance(){
+        //main函数进入if创建类时形式固定
             if(instance==null) {
                 instance = new Student();
-
             }
 
         return instance;
