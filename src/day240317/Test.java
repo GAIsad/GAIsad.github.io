@@ -9,6 +9,7 @@ public class Test {
         System.out.println(P.getClass().getSuperclass());
         Student student=new Student();
         System.out.println(student.getClass().getSuperclass());
+        student.eat();
 
 
     }

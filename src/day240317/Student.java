@@ -5,4 +5,7 @@ public class Student extends Person{
     public void play(){
         System.out.println("play");
     }
+    public void eat(){
+        System.out.println("mmm");
+    }
 }
