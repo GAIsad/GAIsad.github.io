@@ -25,7 +25,7 @@ public class RockPaperScissors {
 
         if (Objects.equals(user, Computer)) {
             System.out.println("平局");
-            return "平局";
+            return "darw";
         }
         if ((Objects.equals(user, "Rock") && Objects.equals(Computer, " AiScissors")) ||
                 (Objects.equals(user, "Scissors") && Objects.equals(Computer, "Paper")) ||

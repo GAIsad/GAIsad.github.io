@@ -13,7 +13,6 @@ public class RockPaperScissorsTest {
               break;;
         }
         String computerinput=R.getComputerinput();
-        System.out.println(computerinput);
         R.DecideWinner();
 
 
