@@ -1,8 +1,8 @@
 package Day240322;
 
 public class Animal {
-    public String  eat() {
+    public double  eat() {
         System.out.println("This animal eats food.");
-        return "";
+        return 0;
     }
 }

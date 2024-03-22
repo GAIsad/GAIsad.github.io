@@ -1,8 +1,8 @@
 package Day240322;
 
 public class Dog extends Animal {
-        public String eat() {
+        public in eat() {
             System.out.println("The dog eats bones.");
-            return "";
+            return 0;
         }
 }
