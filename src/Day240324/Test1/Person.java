@@ -10,6 +10,9 @@ public class Person {
     }
     //behavior
     public void adopt(Animal animal){
+        if(animal instanceof Dog){
+            System.out.println("你是狗");
+        }
         System.out.println(this.name+"养了一只"+animal.name);
     }
 }

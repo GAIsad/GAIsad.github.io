@@ -11,5 +11,6 @@ public class Test {
         person.adopt(dog);
         person.adopt(pig);
         person.adopt(bird);
+
     }
 }
