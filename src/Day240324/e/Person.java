@@ -5,7 +5,7 @@ public class Person {
     String name;
 
     //behavior
-    public void describeLonely(){
+    public void describeLonely(String text){
         System.out.println("   ");//可重写
     }
 
