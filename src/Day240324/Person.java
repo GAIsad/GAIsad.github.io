@@ -3,24 +3,35 @@ package Day240324;
 public class Person {
     //state
     String name;
-    int numberCat;
-    int numberDog;
+    private int numberCat;
+    private int numberDog;
     String nameCat;
     String nameDog;
     //behavior
     public int getNumberCat() {
+
         return numberCat;
     }
 
     public void setNumberCat(int numberCat) {
-        this.numberCat = numberCat;
+        if (numberCat>0) {
+            this.numberCat = numberCat;
+        }
+        else{
+            System.out.println("输入错误");
+        }
     }
     public int getNumberDog() {
         return numberDog;
     }
 
     public void setNumberDog(int numberDog) {
-        this.numberDog = numberDog;
+        if (numberDog>0) {
+            this.numberDog = numberDog;
+        }
+        else{
+            System.out.println("输入错误");
+        }
     }
 
     void adoptedCat(){
