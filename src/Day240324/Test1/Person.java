@@ -9,10 +9,7 @@ public class Person {
         this.name = name;
     }
     //behavior
-    public void adopt(Cat cat){
-        System.out.println(this.name+"养了一只"+cat.name);
-    }
-    public void adopt(Dog dog){
-        System.out.println(this.name+"养了一只"+dog.name);
+    public void adopt(Animal animal){
+        System.out.println(this.name+"养了一只"+animal.name);
     }
 }

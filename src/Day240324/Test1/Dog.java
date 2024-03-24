@@ -1,15 +1,12 @@
 package Day240324.Test1;
 
-public class Dog {
+public class Dog extends Animal{
     //state
     String name;
     //constructor
     public  Dog(String name){
-        this.name=name;
+        super(name);
+
     }
-
-
-
-
     //behavior
 }
