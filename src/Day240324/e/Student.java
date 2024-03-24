@@ -2,7 +2,7 @@ package Day240324.e;
 
 public class Student extends Person{
     public Student(String name) {
-
+    super(name);
     }
 
     @Override

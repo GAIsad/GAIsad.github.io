@@ -1,6 +1,6 @@
 package Day240324.e;
 
-public class Person {
+public abstract class Person {
     //state
     String name;
     public Person(String name) {
@@ -9,8 +9,6 @@ public class Person {
 
 
     //behavior
-    public void describeLonely(String text){
-        System.out.println("   ");//可重写
-    }
+    public abstract void describeLonely(String text);//抽象类对应抽象方法体
 
 }
