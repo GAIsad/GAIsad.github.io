@@ -10,4 +10,9 @@ public class Student extends Person{
 
         System.out.println(text);//想到提参数
     }
+
+    @Override
+    public void judgeXDD(String text) {
+        super.judgeXDD(text);
+    }
 }

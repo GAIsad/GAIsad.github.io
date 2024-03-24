@@ -12,7 +12,7 @@ public abstract class Person {
     //behavior
     public abstract void describeLonely(String text);//抽象类对应抽象方法体
 
-    public void judgeXDD(String text) {
+    public final void judgeXDD(String text) {
         System.out.println("ddd");
     }
 }
