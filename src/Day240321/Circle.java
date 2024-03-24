@@ -1,9 +1,9 @@
 package Day240321;
 
 public class Circle {
-    public double radius;
-    public Circle(){
-        radius=1;
+    private double radius;
+    public Circle(double radius){
+
     }
 
     public double getRadius() {

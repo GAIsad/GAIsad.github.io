@@ -2,8 +2,8 @@ package Day240321;
 
 public class Cyclider extends Circle{
     private double length;
-    public Cyclider(){
-        length=1;
+    public Cyclider(double radius){
+        super(radius);
     }
 
     public double getLength() {
@@ -19,8 +19,8 @@ public class Cyclider extends Circle{
         //return super.findArea()*getLength();
         return findArea()*getLength();
     }
-    @Override
+    /*@Override
     public double findArea(){
         return Math.PI*this.radius*this.radius;
-    }
+    }*/
 }
