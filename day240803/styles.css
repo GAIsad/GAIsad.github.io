@@ -1,0 +1,28 @@
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.month {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    border: 1px solid transparent;
+    padding: 5px;
+    text-align: center;
+}
+.day.selected {
+    background-color: yellow;
+    border: 1px solid #ccc;
+}
