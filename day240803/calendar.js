@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // 假设的日期和网址映射
     const urls = {
         '2024-07-29': 'https://gitee.com/clay_2_0/ice1/tree/master/src/day240729',
-        '2024-02-14': 'https://example.com/valentines',
-        // 更多日期和网址...
+        
+        // 更多日期和网址..
     };
 
     for (let month = 0; month < 12; month++) {
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     window.open(urls[clickedDate], '_blank');
                 } else {
                     // 如果没有对应的网址，可以执行其他操作，例如显示警告等
-                    alert('No URL associated with this date.');
+                    alert('没有对应的代码日期');
                 }
             });
         }
